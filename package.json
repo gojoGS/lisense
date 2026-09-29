@@ -1,7 +1,11 @@
 {
   "name": "@gojogs/lisense",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Create standard LICENSE files for your software projects.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gojoGS/lisense.git"
+  },
   "type": "module",
   "module": "src/index.ts",
   "bin": {
@@ -27,7 +31,7 @@
     "spdx",
     "license-file"
   ],
-  "license": "MIT",
+  "license": "GPL-2.0-only",
   "publishConfig": {
     "access": "public"
   },
